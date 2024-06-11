@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+    </head>
+    <body>
+        <form>
+            <h1>Form Input Control Example </h1>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+           <br>
+           <br>
+           <label for="Age">Age:</label>
+           <input type="text" id="age" name="age" required>
+           <label for="Rating" id="rating">Rating</label>
+           <input type="range" id="rating">
+           <label for="Dob" id="dob">Date of Birth</label>
+           <input type="date" id="dob">
+           <label for="Dobtime" id="dob">Time</label>
+           <input type="time" id="dobtime"><br>
+           <br>
+           <label for="Image" id="image">Image</label>
+           <input type="image" id="image" src="sweets.jpg" style="height: 100;width:80px"><br><br>
+           <label for="Week" id="week">Week</label>
+           <input type="week" id="week"><br><br>
+           <label for="Month" id="month">Month</label>
+           <input type="month" id="month"><br><br>
+           <label for="Datetime-Local" id="Datetime-Local">Datetime-Local</label>
+           <input type="datetime-local" id="Datetime-Local">
+           <br><br>
+           <label for="URL" id="URL">URL</label>
+           <input type="url" id="URL">
+           <br><br>
+           <label for="Search" id="Search">Search</label>
+           <input type="search" id="Search">
+           <br><br>
+           <label for="Gender" id="Gender">Gender </label>
+           <input type="radio" id="male" name="Gender">Male
+           <input type="radio" id="female" name="Gender">Female
+           <br><br>
+           <label for="Interests" id="Interests">Interests </label>
+           <input type="checkbox" id="Reading">Reading
+           <input type="checkbox" id="Sports">Sports
+           <br><br>
+           <label for="Country" id="Country">Country:</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="UK">UK</option>
+                <option value="US">USA</option>
+                <option value="Germany">Germany</option>
+            </select>
+            <br><br>
+            <label>Message: </label>
+            <textarea class="textarea" placeholder="Enter your Message"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+           </form>
+    </body>
+</html>
